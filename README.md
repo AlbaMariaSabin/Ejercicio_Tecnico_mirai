@@ -17,7 +17,7 @@ Este proyecto es una solución para un ejercicio técnico presentado como parte 
 
 3. **Diseño:**
    - Decidí seguir un estilo basado en **HTML5**, limpio y estructurado, que permite destacar la organización del código y la claridad de los elementos visuales.
-   - He utilizado una paleta de colores armoniosa para mantener una apariencia agradable, junto con efectos interactivos para mejorar la experiencia del usuario.
+   - He utilizado una paleta de colores para mantener una apariencia agradable, junto con colores gradientes para mejorar la experiencia del usuario.
 
 ---
 
@@ -36,7 +36,7 @@ EJERCICIO/ │
 
 ## 🛠️ Tecnologías utilizadas
 HTML5: Para la estructura base de la aplicación.
-CSS3: Para el diseño visual, efectos interactivos y la disposición de los elementos.
+CSS3: Para el diseño visual y la disposición de los elementos.
 JavaScript: Para la implementación de la lógica del contador y la interacción con los elementos del DOM.
 
 ## 📋 Notas adicionales
