@@ -1,0 +1,177 @@
+/* General */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg,  #5a3c7a, #ab5676, #f2d3d6);
+  background-size: 300% 300%;
+  color: #ffffff;
+  animation: backgroundAnimation 15s ease infinite;
+  min-height: 100vh; 
+  flex-direction: column;
+  display: flex;
+}
+
+/* Colores gradientes y animados para el body */
+@keyframes backgroundAnimation {
+  0% { background-position: 0% 50%;}
+  50% { background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(to right, #4b2354, #5a3c7a);
+  color: #f2d3d6;
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  border-bottom: 3px solid #ab5676;
+  flex-shrink: 0;
+}
+
+header .encabezado h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .encabezado p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #ab5676;
+}
+
+/* Contenido principal */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;  
+  padding: 40px 20px; 
+  min-height: 60%; 
+}
+
+/* Forma de la caja "Contador" */
+.contador {
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  background-color: #5a3c7a; 
+  border: 2px solid #4a2670; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contador:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+.contador h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #f2d3d6;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contador p {
+  font-size: 2.5rem;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Diseño y colores de los botones */
+button {
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px 10px;
+  margin: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  align-self: center;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center; 
+}
+
+/* Contenedor de los botones en fila */
+.btnIncDecr {
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+}
+
+#btnReiniciar {
+  align-self: center; 
+}
+
+#btnIncrementar {
+  background-color: #5a9bd6; 
+  color: #ffffff;
+  border-color: #055397;
+}
+
+#btnIncrementar:hover {
+  background-color: #1e6eb4; 
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(53, 122, 184, 0.5);
+}
+
+#btnDecrementar {
+  background-color: #df3d3d; 
+  color: #ffffff;
+  border-color: #a31c1c;
+}
+
+#btnDecrementar:hover {
+  background-color: #b34747;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(179, 71, 71, 0.5);
+}
+
+#btnReiniciar {
+  background-color: #b0bec5; 
+  color: #000000;
+  border-color: #4b5153;
+}
+
+#btnReiniciar:hover {
+  background-color: #78909c;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(120, 144, 156, 0.5);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #3a1a45, #4b2354); 
+  color: #d1c2d6; 
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3); 
+  border-top: 3px solid #8a4a5f;
+  font-size: 1rem;
+  flex-shrink: 0;
+} 
+
+footer p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #d1c2d6;
+  line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); 
+}
+
+
