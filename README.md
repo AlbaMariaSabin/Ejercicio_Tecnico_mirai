@@ -44,7 +44,7 @@ Este proyecto fue desarrollado exclusivamente para la prueba técnica de Mirai.c
 Se priorizó:
 
 -Orden: Cada archivo y componente está organizado de manera lógica para facilitar la comprensión del proyecto.
--Diseño: Se utilizó un enfoque visual que resalta la claridad, con una paleta de colores armónica y elementos interactivos.
+-Diseño: Se utilizó un enfoque visual que resalta la claridad, con una paleta de colores.
 -Buena arquitectura: La estructura del proyecto sigue prácticas recomendadas para garantizar escalabilidad y facilidad de mantenimiento.
 -Limpieza del código: El código está escrito de manera clara, legible y con comentarios donde es necesario para explicar su funcionamiento.
 -Mi objetivo fue garantizar que este proyecto no solo sea funcional, sino también un ejemplo de buenas prácticas en diseño y desarrollo web.
